@@ -11,7 +11,7 @@ This is simple console application where computer thinks of a random number whic
 
 ## Exercise 2 - Rock, Paper, Scissors
 
-This is simple console applications where user plays with computer as much as user want to.
+This is simple console application where user plays with computer as much as user want to.
 
 ### Requirements
 * Computer's pick should be random
