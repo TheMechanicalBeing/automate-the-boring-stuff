@@ -15,4 +15,4 @@ This is simple console visual application where computer makes form of zigzag
 * You should do collatz sequence which says
   * if number is even next number on sequence should be number // 2
   * if number is odd next number on sequence should be number * 3 + 1
-* The 
+* The program should stop when last number of sequence is printer
