@@ -16,6 +16,15 @@ P.S. The path of mclip.bat file should be stored in C:\Windows and the path also
 
 Simple console application that adds bullet to each line of copied text and saves it to new copy.
 
-### requirements
+### Requirements
 * Use pyperclip module for copy and paste
 * Use function to format
+
+## Exercise 3 - Pig Latin
+
+Simple language converting console application that translates any english sentence into pig latin language.
+
+### Requirements
+* Make method that converts word into pig latin language
+* Split sentence by words to apply each word with the above method
+* Print translated sentence
