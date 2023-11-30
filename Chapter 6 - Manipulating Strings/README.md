@@ -28,3 +28,11 @@ Simple language converting console application that translates any english sente
 * Make method that converts word into pig latin language
 * Split sentence by words to apply each word with the above method
 * Print translated sentence
+
+## Exercise 4 - Table Printer
+
+Simple console application that prints 2d-array like a table.
+
+### Requirements
+* Make method that returns nothing but table prints tha 2d-array
+* Display the results
