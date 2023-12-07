@@ -10,3 +10,12 @@ Say you have the boring task of finding every phone number and email address in 
 - Find all matches of both regexes
 - Format the matched strings into a single string to paste
 - Display some kind of message if no matches found in the text
+
+## Exercise 2 - Date Detection
+
+Console application that detects each date format in text and then validates it.
+
+### Requirements
+- Write regular expression that detects and saves each date format DD/MM/YYYY
+- Iterate over each date and print it in console
+- Also, Validate each date provided in text and figure out whether given date is valid or not
