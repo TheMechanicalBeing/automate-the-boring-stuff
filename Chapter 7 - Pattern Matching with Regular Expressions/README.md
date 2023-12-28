@@ -19,3 +19,16 @@ Console application that detects each date format in text and then validates it.
 - Write regular expression that detects and saves each date format DD/MM/YYYY
 - Iterate over each date and print it in console
 - Also, Validate each date provided in text and figure out whether given date is valid or not
+
+## Exercise 3 - Strong Password Detection
+
+Console application that checks whether given password is strong.
+
+### Requirements
+- Write a function that passes one string argumen
+- That function should validate given argument with RegEx whether it is strong or not
+- Print out response
+- Strong password criterias:
+- - at least 8 characters
+- - Contains both lowercase and uppercase characters
+- - Contains at least one digit
