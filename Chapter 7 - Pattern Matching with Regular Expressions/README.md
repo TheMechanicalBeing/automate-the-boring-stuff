@@ -25,10 +25,18 @@ Console application that detects each date format in text and then validates it.
 Console application that checks whether given password is strong.
 
 ### Requirements
-- Write a function that passes one string argumen
+- Write a function that passes one string argument
 - That function should validate given argument with RegEx whether it is strong or not
 - Print out response
 - Strong password criterias:
 - - at least 8 characters
 - - Contains both lowercase and uppercase characters
 - - Contains at least one digit
+
+# Exercise 4 - Regex Version of the strip() method
+
+Simple console application that does same thing as strip() method but with regex.
+
+- Write a function that passes one string argument
+- Function should return same string but it should be stripped
+- Use RegEx for function's main implementation
