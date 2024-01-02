@@ -1,11 +1,15 @@
+import random, time
+
 import pyinputplus as pyip
-import time, random
+
 
 if __name__ == "__main__":
     numberOfQuestions = pyip.inputNum("How many questions?\n", min=1)
     rightAnswers = 0
 
     for question in range(numberOfQuestions):
+        time.sleep(1)
+
         num1 = random.randint(1, 9)
         num2 = random.randint(1, 9)
         try:

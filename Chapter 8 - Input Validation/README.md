@@ -20,3 +20,13 @@ Simple multiplication quiz program.
 - Keep track of correct answers
 - The multiplication problem should be randomly generated from 1-9 range
 - When quiz stops, give message
+
+## Exercise 3 - Sandwich Maker
+
+A program that asks user for their sandwhich preferences
+
+### Requirements
+- User PythonInputPlus module
+- Write out prices for each ingredien
+- Ask for bread type, protein type, cheese, cheese type, mayo, mustard, lettuce, tomato, and quantity
+- Print out price message
