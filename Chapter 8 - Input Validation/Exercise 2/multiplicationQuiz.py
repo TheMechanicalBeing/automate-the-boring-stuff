@@ -18,7 +18,7 @@ if __name__ == "__main__":
             print("Out of time!")
             break
         except pyip.RetryLimitException:
-            print("Out of tries")
+            print("Out of tries!")
             break
         print(f"Correct!")
         rightAnswers += 1

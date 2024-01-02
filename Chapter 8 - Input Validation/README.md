@@ -30,3 +30,7 @@ A program that asks user for their sandwhich preferences
 - Write out prices for each ingredien
 - Ask for bread type, protein type, cheese, cheese type, mayo, mustard, lettuce, tomato, and quantity
 - Print out price message
+
+## Exercise 4 - My Multiplication Quiz
+
+Simple multiplication quiz program as it is in Exercise 4 with same requierements, but catch is that I should not use PythonInputPlus module
