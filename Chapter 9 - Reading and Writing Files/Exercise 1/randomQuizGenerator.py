@@ -28,4 +28,20 @@ for quizNum in range(35):
         states = list(capitals.keys())
         random.shuffle(states)
 
-        quiz.write(str(states) + "\n\n")
+        for questionNum in range(50):
+            correctAnswer = capitals[states[questionNum]]
+
+            wrongAnswers = list(capitals.values())
+            del wrongAnswers[wrongAnswers.index(correctAnswer)]
+            wrongAnswers = random.sample(wrongAnswers, 3)
+
+            answerOptions = wrongAnswers + [correctAnswer]
+            random.shuffle(answerOptions)
+
+            quiz.write(f"{questionNum+1}. What is capital of {states[questionNum]}?\n")
+
+            for i in range(4):
+                quiz.write(f"   {'ABCD'[i]}. {answerOptions[i]}\n")
+            quiz.write('\n')
+
+            ans.write(f"{questionNum+1}. {'ABCD'[answerOptions.index(correctAnswer)]}\n")
