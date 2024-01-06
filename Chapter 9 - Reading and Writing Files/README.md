@@ -14,9 +14,20 @@ Program that generates random quiz files. The quiz consists MCQ (multiple-choice
 - Call `open()` and `write()` for the quiz and answer key text files
 - Use `random.shuffle()` to randomize the order of the questions and multiplce-choice options
 
-## Exercise 2
+## Exercise 2 - Updatable Multi-Clipboard
+
+Rewriting program from CH6's example 1, but it uses `shelve` module. The user now be able to load to the clipboard without having to modify the source code.
 
 ### Requirements
+- The command line argument for the keyword is checked
+- If the argument is `save`, then the clipboard contents are saved to the keyword
+- If the argument is `list`, then all the keywords are copied to the clipboard
+- Otherwise, the text keyword is copied to the clipboard
+- Read the command line arguments from `sys.argv`
+- Read and write to the clipboard
+- Save and load to a shelf file
+
+Note: You should add environmental variable to PATH for .bat files to run .bat file easily
 
 ## Exercise 3
 
