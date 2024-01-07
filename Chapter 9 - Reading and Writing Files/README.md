@@ -22,6 +22,7 @@ Rewriting program from CH6's example 1, but it uses `shelve` module. The user no
 - The command line argument for the keyword is checked
 - If the argument is `save`, then the clipboard contents are saved to the keyword
 - If the argument is `list`, then all the keywords are copied to the clipboard
+- If the argument is `delete`, then keyword should be deleted
 - Otherwise, the text keyword is copied to the clipboard
 - Read the command line arguments from `sys.argv`
 - Read and write to the clipboard
