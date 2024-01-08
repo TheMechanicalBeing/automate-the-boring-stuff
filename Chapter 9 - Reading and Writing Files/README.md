@@ -30,9 +30,15 @@ Rewriting program from CH6's example 1, but it uses `shelve` module. The user no
 
 Note: You should add environmental variable to PATH for .bat files to run .bat file easily
 
-## Exercise 3
+## Exercise 3 - Mad Libs
+
+Program that read in text files and lets the user add their own text anywhere the word ADJECTIVE, NOUN, ADVERB, or VERB appears in the text file. For example, a text file may look like this.
 
 ### Requirements
+- Show the user file content
+- Prompt the user to change each ADJECTIVE, NOUN, ADVERB, or VERB with specific word
+- Show the user changed content
+- Save the content into new file
 
 ## Exercise 4
 
