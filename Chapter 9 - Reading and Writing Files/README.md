@@ -40,6 +40,12 @@ Program that read in text files and lets the user add their own text anywhere th
 - Show the user changed content
 - Save the content into new file
 
-## Exercise 4
+## Exercise 4 - Regex Search
+
+Program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression.
 
 ### Requirements
+- Use re module
+- Prompt user for regular expression pattern
+- Search through .txt file lines to find given pattern
+- Print result on the screen
