@@ -12,9 +12,14 @@ Program that takes many files with American-style (MM-DD-YYYY) dates in their na
 - Loop over each filename, using regex to check whether it has a date
 - If it has a date, rename the file with `shutil.move()`
 
-## Exercise 2
+## Exercise 2 - Backing up a Folder into a ZIP File
+
+Program that creates a ZIP file "snapshots" of the entire folder.
 
 ### Requirements
+- Use `zipfile` module
+- Make snapshots of folder as example_1.zip, example_2.zip, and so on
+- Use function for main execution
 
 ## Exercise 3
 
