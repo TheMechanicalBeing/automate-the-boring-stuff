@@ -21,9 +21,14 @@ Program that creates a ZIP file "snapshots" of the entire folder.
 - Make snapshots of folder as example_1.zip, example_2.zip, and so on
 - Use function for main execution
 
-## Exercise 3
+## Exercise 3 - Selective Copy
+
+Program that walks through a folder tree and searches for files with a certain file extension (such as .pdf and .jpg).
 
 ### Requirements
+- Prompt user for extension to know which files to find
+- Search through each file and copy only files that match user's input
+- Copy files from whatever location they are in to a new folder
 
 ## Exercise 4
 
