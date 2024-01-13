@@ -1,0 +1,2 @@
+Initial name: spam no. 4
+after program runs: span no. 3

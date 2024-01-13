@@ -30,10 +30,13 @@ Program that walks through a folder tree and searches for files with a certain f
 - Search through each file and copy only files that match user's input
 - Copy files from whatever location they are in to a new folder
 
-## Exercise 4
+## Exercise 4 - Filling in the Gaps
+
+program that finds all files with a given prefix, in a single folder and locates any gaps in the numbering. the program rename all the later files to close this gap.
 
 ### Requirements
-
-## Exercise 5
-
-### Requirements
+- Prompt the user for prefix
+- Search for files with given prefix into the folder
+- Look for the numberings of these files
+- Find the gaps considering the numbers
+- Rename files so there will not be gaps
