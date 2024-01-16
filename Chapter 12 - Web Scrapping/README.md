@@ -2,7 +2,7 @@
 
 ## Exercise 1 - mapIt.py with the webbrowser Module 
 
-Program that automatically launch the map in browser using the contents of clipboard.
+Program that automatically launches the map in browser using the contents of clipboard.
 
 ### Requirements
 - Get a street address from the command line arguments or clipboard
@@ -13,7 +13,16 @@ Program that automatically launch the map in browser using the contents of clipb
 
 ## Exercise 2 - Opening All Search Results
 
+Program that automatically opens a browser and  open all the search results for Python Package Index in https://pypi.org.
+
 ### Requirements
+- Get search keywords from command line arguments
+- Retrieve the search results page
+- Open a browser tab for each result
+- Read the command line from `sys.argv`
+- Fetch the search result with the `requests` module
+- Find the links to each search result
+- Call the `webbrowser.open()` function to open the web browser
 
 ## Exercise 3 - Downloading all XKCD Comics
 
