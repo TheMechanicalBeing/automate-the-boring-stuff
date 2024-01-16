@@ -26,7 +26,17 @@ Program that automatically opens a browser and  open all the search results for 
 
 ## Exercise 3 - Downloading all XKCD Comics
 
+Program that downloads each comic image from XKCD geek webcomic website.
+
 ### Requirements
+- Load the XKCD home page
+- Save the comic image on that page
+- Follow the Previous Comic link
+- Repeat until it reaches the first comic
+- Download pages with the `requests` module
+- Find the URL of the comic image for a page using Beautiful Soup
+- Download and save the comic image to the hard drive with `iter_content()`
+- Find the URL of the Comic Link, and repeat
 
 ## Exercise 4 - Command Line Emailer
 
