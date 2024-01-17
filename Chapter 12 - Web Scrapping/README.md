@@ -40,7 +40,14 @@ Program that downloads each comic image from XKCD geek webcomic website.
 
 ## Exercise 4 - Command Line Emailer
 
+A program that takes an email address and string of text on the command line and then, using `selenium`, logs in to your email account and sends an email of the string to the provided address.
+
 ### Requirements
+- Get two command line arguments one for email address and another for text using `sys.argv`
+- Manipulate on HTML elements using `selenium` module
+- Open the browser
+- Log in to your email
+- Input the email and text to send
 
 ## Exercise 5 - Image Site Downloader
 
