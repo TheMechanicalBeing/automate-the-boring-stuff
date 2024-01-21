@@ -51,7 +51,13 @@ A program that takes an email address and string of text on the command line and
 
 ## Exercise 5 - Image Site Downloader
 
+Program that goes to a photo-sharing site like Flickr, searches for a category of photos, and then downloads all the resulting images.
+
 ### Requirements
+- Prompt the user for searching term and quantity of images to be downloaded
+- Open the https://www.flickr.com/ and input the search term
+- Download the images
+- Save the images to folder
 
 ## Exercise 6 - 2048
 
