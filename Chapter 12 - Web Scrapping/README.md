@@ -65,6 +65,11 @@ Program that will open the game at https://gabrielecirulli.github.io/2048/ and k
 
 ### Requirements
 
-## Exercise 7 - Link Verifications
+## Exercise 7 - Link Verification
+
+Program that, given the URL of a web page, will attempt to download every linked page on the page. The program should flag any pages that have a 404 "Not Found" status code and print the out as broken links.
 
 ### Requirements
+- Prompt the user the URL where you want to search for links
+- Download each link using `requests` module and loops
+- Write out the links that throws 404 error
