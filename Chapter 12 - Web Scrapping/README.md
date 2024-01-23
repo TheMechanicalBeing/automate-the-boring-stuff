@@ -61,6 +61,8 @@ Program that goes to a photo-sharing site like Flickr, searches for a category o
 
 ## Exercise 6 - 2048
 
+Program that will open the game at https://gabrielecirulli.github.io/2048/ and keep sending up, right, down and left keystrokes to automatically play the game
+
 ### Requirements
 
 ## Exercise 7 - Link Verifications
