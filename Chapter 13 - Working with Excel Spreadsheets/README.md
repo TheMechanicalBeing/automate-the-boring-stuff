@@ -2,7 +2,16 @@
 
 ## Exercise 1 - Reading data from a Spreadsheet
 
+Script that can read from the census spreadsheet file and calculate statistics for each country in a matter of seconds
+
 ### Requirements
+- Read the data from the Excel spreadsheet
+- Count the number of census tracts in each country
+- Count the total population of each country
+- Print the result
+- Open and read the cells of an Excel document with `openpyxl` module
+- Calculate all the tract and population data and store it in a data structure
+- Write the data structure to a text file with the .py extensions using the `pprint` module
 
 ## Exercise 2 - Updating a Spreadsheet
 
