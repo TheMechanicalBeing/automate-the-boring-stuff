@@ -15,7 +15,13 @@ Script that can read from the census spreadsheet file and calculate statistics f
 
 ## Exercise 2 - Updating a Spreadsheet
 
+Program that automatically updates cells in spreadsheet of produce cells. To be more precise, it changes the product price of garlic, celery and lemon
+
 ### Requirements
+- Open the spreadsheet file
+- Loop over all the rows
+- If the row is garlic, celery, or lemons, change the price
+- Save the spreadsheet to a new file
 
 ## Exercise 3 - Multiplication Table Maker
 
