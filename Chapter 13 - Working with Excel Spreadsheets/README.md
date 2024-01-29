@@ -25,7 +25,12 @@ Program that automatically updates cells in spreadsheet of produce cells. To be 
 
 ## Exercise 3 - Multiplication Table Maker
 
+Program that makes a number _N_ from the command line and creates an _N_ x _N_ multiplication table in an Excel spreadsheet.
+
 ### Requirements
+- Use `sys.argv` to retrive dimensions of multiplication table
+- Use `openxpyxl` module to do Excel spreasheet manipulation
+- Save the file with _.xlsx_ extension
 
 ## Exercise 4 - Spreadsheet Cell Inverter
 
