@@ -32,14 +32,23 @@ Program that makes a number _N_ from the command line and creates an _N_ x _N_ m
 - Use `openxpyxl` module to do Excel spreasheet manipulation
 - Save the file with _.xlsx_ extension
 
-## Exercise 4 - Spreadsheet Cell Inverter
+## Exercise 4 - Blank Row Inserter
+
+Program that takes two integers and a filename string as command line arguments. The first integer is starting row and second one is how many rows to be blank.
+
+### Requirements
+- Use `sys.argv` to get two integers and filename as input
+- Use `openpyxl` module to manipulate on Excel spreadsheets
+- Print out the message
+
+## Exercise 5 - Spreadsheet Cell Inverter
 
 ### Requirements
 
-## Exercise 5 - Text Files to Spreadsheets
+## Exercise 6 - Text Files to Spreadsheets
 
 ### Requirements
 
-## Exercise 6 - Spreadsheet to Text Files
+## Exercise 7 - Spreadsheet to Text Files
 
 ### Requirements
