@@ -28,11 +28,14 @@ if __name__ == "__main__":
             rows[row-1].append(sheet.cell(row=row, column=col).value)
 
     wb_to_save = openpyxl.Workbook()
+    sheet = wb_to_save["Sheet"]
 
     row = 1
-    for i in range(1, len(rows)+followed_up+1):
-        for col in range(1, sheet.max_column + 1):
-            sheet.cell(row=row, column=col).value = rows[row-1][col-1]
+    for i in range(1, len(rows)+1):
+        if i == starting_row:
+            row += followed_up
+        for col, value in enumerate(rows[i-1]):
+            sheet.cell(row=row, column=col+1).value = value
+        row += 1
 
     wb_to_save.save(f"updated_{filename}")
-
