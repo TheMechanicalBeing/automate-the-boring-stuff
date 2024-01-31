@@ -1,6 +1,7 @@
 import sys
 
 import openpyxl
+from openpyxl.utils.exceptions import InvalidFileException
 
 
 if __name__ == "__main__":
@@ -11,7 +12,12 @@ if __name__ == "__main__":
 
     filename = sys.argv[1]
 
-    wb = openpyxl.load_workbook(filename)
+    try:
+        wb = openpyxl.load_workbook(filename)
+    except InvalidFileException:
+        print("The given file DNE.")
+        sys.exit()
+
     sheet = wb.active
 
     rows = []
