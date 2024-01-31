@@ -39,3 +39,4 @@ if __name__ == "__main__":
         row += 1
 
     wb_to_save.save(f"updated_{filename}")
+    print(f"added updated_{filename} with blank rows successfully.")

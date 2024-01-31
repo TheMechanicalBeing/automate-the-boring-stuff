@@ -43,7 +43,12 @@ Program that takes two integers and a filename string as command line arguments.
 
 ## Exercise 5 - Spreadsheet Cell Inverter
 
+Program that inverts the row and column of the cells in the spreadsheet.
+
 ### Requirements
+- Use `sys.argv` to get _.xlsx_ filename that has to be inverted
+- Use `openpyxl` module to invert cells
+- Print out the message
 
 ## Exercise 6 - Text Files to Spreadsheets
 
