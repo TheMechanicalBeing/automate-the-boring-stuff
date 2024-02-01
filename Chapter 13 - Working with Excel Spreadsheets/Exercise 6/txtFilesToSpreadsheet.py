@@ -26,3 +26,4 @@ if __name__ == "__main__":
             print(f"Could not find file: {filename}")
 
     wb.save("txtFilesToSpreadsheet.xlsx")
+    print("Done.")

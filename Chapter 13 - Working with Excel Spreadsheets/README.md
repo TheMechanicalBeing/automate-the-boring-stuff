@@ -55,9 +55,15 @@ Program that inverts the row and column of the cells in the spreadsheet.
 Program that reads the contents of several text files and insert those contents into a spreadsheet, with one line of text per row.
 
 ### Requirements
-- Use `sys.argv` to let user input text files
+- Use `sys.argv` to let user input text files' filenames
 - Use `openpyxl` module to make operations into spreadsheet
+- Save result as _.xlsx_ file
 
 ## Exercise 7 - Spreadsheet to Text Files
 
+Program that does same thing as Exercise 6 but in reverse order.
+
 ### Requirements
+- Use `sys.argv` to let user input spreadsheet file's filename
+- use `openpyxl` module to make operations into spreadsheet
+- Save result as _.txt_ files

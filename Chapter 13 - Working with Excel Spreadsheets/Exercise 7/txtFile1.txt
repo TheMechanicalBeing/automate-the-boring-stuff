@@ -1,0 +1,4 @@
+This is random file.
+But not that random.
+Because it had some purpose.
+Purpose to test my programs
