@@ -1,8 +1,17 @@
 # Chapter 14 - Working with Google Spreadsheets
 
+__Note:__ I have not included the configuration in this repository due to security reasons
+
 ## Exercise 1 - Downloading Google Forms
 
+Program that prints out information from specified Google Forms's responses
+
 ### Requirements
+- Create forms using Google Forms
+- Collect some responses
+- Make Google Spreadsheets from responses
+- Retrieve ID from form's spreadsheet
+- Print out information from spreadsheet using `ezsheets` module
 
 ## Exercise 2 - Converting Spreadsheets
 
