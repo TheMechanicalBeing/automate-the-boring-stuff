@@ -15,7 +15,12 @@ Program that prints out information from specified Google Forms's responses
 
 ## Exercise 2 - Converting Spreadsheets
 
+Program that converts spreadsheet file into other format.
+
 ### Requirements
+- Ask user for spreadsheet's ID
+- Ask user for downloading format
+- Download the spreadsheet as given format
 
 ## Exercise 3 - Finding Mistakes in a Spreadsheet
 
