@@ -24,4 +24,9 @@ Program that converts spreadsheet file into other format.
 
 ## Exercise 3 - Finding Mistakes in a Spreadsheet
 
+Finding and calculating answer for a mistake from specific spreadsheet (beans).
+
 ### Requirements
+- Find the miscalculation from spreadsheet
+- Use `ezsheets` module
+- Print out the row where the mistake was found
