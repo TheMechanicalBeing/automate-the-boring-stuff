@@ -4,20 +4,19 @@ import PyPDF2
 
 
 if __name__ == "__main__":
-    pdfFiles = list(filter(lambda f: f.endswith(".pdf"), os.listdir()))
+    # Selects each file from current directory that has pdf extension
+    pdfs = list(filter(lambda f: f.endswith(".pdf"), os.listdir()))
 
-    pdfFiles.sort(key=str.lower)
+    pdfs.sort()
 
-    pdfWriter = PyPDF2.PdfFileWriter()
+    writer = PyPDF2.PdfWriter()
 
-    for filename in pdfFiles:
-        pdfFileObj = open(filename, "rb")
-        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+    for filename in pdfs:
+        pdf_file_object = open(filename, "rb")
+        reader = PyPDF2.PdfReader(pdf_file_object)
 
-        for pageNum in range(1, pdfReader.numPages):
-            pageObj = pdfReader.getPage(pageNum)
-            pdfWriter.addPage(pageObj)
+        # Adds each page (except the first) to writer
+        [writer.add_page(page) for page in list(reader.pages[1:])]
 
-        pdfOutput = open("allminutes.pdf", "wb")
-        pdfWriter.write(pdfOutput)
-        pdfOutput.close()
+        with open("allminutes.pdf", "wb") as pdfOutput:
+            writer.write(pdfOutput)
