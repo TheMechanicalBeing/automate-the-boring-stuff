@@ -5,3 +5,4 @@ selenium
 openpyxl
 ezsheets
 PyPDF2
+python-docx

@@ -18,7 +18,13 @@ Create a `PdfFileWriter` object for the output PDF
 
 ## Exercise 2 - PDF Paranoia
 
+Program that encrypts/decrypts all PDF files that are place in current directory
+
 ### Requirements
+- Use _sys.argv_ for analyzing user's input
+- Use _os.walk()_ to search through all PDF files
+- If PDF file found encrypt/decrypt it
+- If decryption fails print out message and continue to the next PDF
 
 ## Exercise 3 - Custom Invitations as Word Documents
 
