@@ -28,7 +28,12 @@ Program that encrypts/decrypts all PDF files that are place in current directory
 
 ## Exercise 3 - Custom Invitations as Word Documents
 
+Program that generates a Word document with custom invitations.
+
 ### Requirements
+- Get names for invitations using _guests.txt_ filename
+- Use `docx` module to make a Word document
+- Make some formats for invitation
 
 ## Exercise 4 - Brute-Force PDF Password Breaker
 
