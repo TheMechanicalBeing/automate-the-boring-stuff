@@ -1,13 +1,6 @@
 import docx
 
 
-'''It would be a pleasure to have the company of
-{name}
-at 11010 memory lane on the evening of
-april April 1st
-at 7 o'clock'''
-
-
 def person_invitation(wrd, name):
     wrd.add_heading("it would be a pleasure to have the company of", 2)
     wrd.add_heading(name, 1)

@@ -37,4 +37,10 @@ Program that generates a Word document with custom invitations.
 
 ## Exercise 4 - Brute-Force PDF Password Breaker
 
+Program that will decrypt the PDF by trying every possible English word until it finds one that works (_brute-force password attack_).
+
 ### Requirements
+- Use `sys.argv` to get filename path
+- Collect the possible english words from _dictionary.txt_
+- Decrypt the PDF files using `PyPDF2` module
+- Loop the decryption untill it finds the right one
