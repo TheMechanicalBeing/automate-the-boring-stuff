@@ -28,4 +28,10 @@ Program that prints out current weather data from _OpenWeatherMap.org_
 
 ## Exercise 3 - Excel-toCSV Converter
 
+Program that searches for each Excel spreadsheets file in the current directory, reads its sheets and writes those to _.csv_ files.
+
 ### Requirements
+- Use `os.listdir()` to search for _.xlsx_ files
+- Search through spreadsheets from each _.xlsx_ file
+- Write each spreadsheet as _.csv_ file
+- Save _.csv_ file
