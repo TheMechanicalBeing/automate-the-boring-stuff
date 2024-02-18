@@ -22,7 +22,13 @@ Chapter 12's third exercise but multithreaded implementation.
 
 ## Exercise 3 - Simple Countdown Program
 
+Countdown program that plays an alarm at the end of the countdown.
+
 ### Requirements
+- Count down from 60
+- Play a sound file (alarm.wav) when the countdown reaches zero
+- Pause for 1 second in between displaying each number in the countdown by calling `time.sleep`
+- Call `subprocess.Popen()` to open the sound file with the default application
 
 ## Exercise 4 - Pretiffied Stopwatch
 
