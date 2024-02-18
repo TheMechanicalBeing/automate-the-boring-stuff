@@ -14,7 +14,11 @@ Simple stopwatch that prints out times between "laps" and also the lap number.
 
 ## Exercise 2 - Multithreaded XKCD Downloader
 
+Chapter 12's third exercise but multithreaded implementation.
+
 ### Requirements
+- Same as singlthreaded XKCD Downloader but with one catch
+- Code implementation should be multithreaded
 
 ## Exercise 3 - Simple Countdown Program
 
