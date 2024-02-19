@@ -37,7 +37,3 @@ Same chapter's first exercise but prettified
 ### Requirements
 - Same as chapter's first exercise
 - Use `ljust()` and `rjust()`
-
-## Exercise 5 - Scheduled Web Comic Downloader
-
-### Requirements
