@@ -13,22 +13,5 @@ Script that sends emailing reminders to members that has not paid for subscripti
 - Log in to SMTP server by calling `smtplib.SMTP()`, `ehlo()`, `starttls()`, and `login()`
 - For all members behind on their dues, send a personalized reminder email by calling the `sendmail()` method
 
-## Exercise 2 - "Just Text Me" Module
-
-### Requirements
-
-## Exercise 3 - Random Chore Assignment Emailer
-
-### Requirements
-
-## Exercise 4 - Umbrella Reminder
-
-### Requirements
-
-## Exercise 5 - Auto Unsubscriber
-
-### Requirements
-
-## Exercise 6 - Controlling Your Computer Through Email
-
-### Requirements
+### Note
+I learned these concepts in this chapter but. I have not made other exercises due to not being able to use `smtp` and `imap` on emails.
