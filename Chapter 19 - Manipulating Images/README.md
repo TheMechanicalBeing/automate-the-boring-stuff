@@ -17,8 +17,13 @@ Program that can resize thousands of images and add a small logo watermark to th
 - Call the `save()` method to save the changes, using the original filename
 
 ## Exercise 2 - Extending and Fixing the Chapter Project Programs
+Same as same chapter's Exercise 1 but works with *.gif* file extensions, scales proportions with logo, and is case-insensitive.
 
 ### Requirements
+- Add conditional for finding *.gif* files during directory files iteration
+- Check for file extensions case-insensitively (ex. it should work on both *.PNG* and *.png*)
+- Scale the logo and background image by making background image at least 2 times larger
+- Iteratoe over each image in *.gif* to add logo on whole 'animation'
 
 ## Exercise 3 - Identifying Photo Folders on the Hard Drive
 
