@@ -26,8 +26,13 @@ Same as same chapter's Exercise 1 but works with *.gif* file extensions, scales 
 - Iteratoe over each image in *.gif* to add logo on whole 'animation'
 
 ## Exercise 3 - Identifying Photo Folders on the Hard Drive
+Program that goes through every folder on hard drive and finds potential photo folders.
 
 ### Requirements
+- Use `os.walk()` to go through folders
+- For each folder check it given file is *.png* or *.jpg*
+- If file extension is image check if pixel resolution unit is more than 500
+- If half of folder files are photos print out its absolute path
 
 ## Exercise 4 - Custom Seating Cards
 
