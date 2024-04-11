@@ -35,5 +35,8 @@ Program that goes through every folder on hard drive and finds potential photo f
 - If half of folder files are photos print out its absolute path
 
 ## Exercise 4 - Custom Seating Cards
+Do the same thing as in Chapter 15's third exercise but using photos.
 
 ### Requirements
+- Get names for invitations using _guests.txt_ filename
+- Use `pillow` module
